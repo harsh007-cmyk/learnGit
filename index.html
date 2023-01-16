@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hello, World!</title>
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+
+<body>
+  <container>
+    <div class="header">
+      <h1>Ajay's Weather App</h1>
+    </div>
+  </container>
+  <section class="data-section">
+    <div class="left-side ">
+      <button class="search-button-weather">Get Weather</button>
+      <div class="city-name" >
+        <div class="city-name-header" >City</div>
+        <div id= "London" class="city-name-div" >London</div>
+        <div id= "New York" class="city-name-div">New York</div>
+        <div id= "Los Angeles" class="city-name-div">Los Angeles</div>
+        <div id= "Los Vegas" class="city-name-div">Los Vegas</div>
+      </div>
+
+    </div>
+    <div class="right-side">
+      <div class="input-div">
+        <input id ="input-field"class="input-field" />
+        <button id ="search-button" class="search-button">Search</button>
+
+
+      </div>
+
+      <table id="myTable">
+        <tr>
+          <th>City</th>
+          <th>Description</th>
+          <th>Temperature(C)</th>
+          <th>Pressure(hPa)</th>
+          <th>Data age(hrs)</th>
+          <th></th>
+        </tr>
+        <td id="no-item" colspan="2">No items to display</td>
+
+      </table>
+    </div>
+  </section>
+
+  <script src="src/index.js"></script>
+</body>
+
+</html>

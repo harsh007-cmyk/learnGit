@@ -1,0 +1,146 @@
+body {
+    background-color: #f5f5f5;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+  }
+  
+  h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+  }
+  
+  h4 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .left-side {
+    width: 20%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  .search-button-weather{
+    display: flex;
+    align-items: center;
+    height:10px;
+    background-color: #4472c4;
+    color: #fff;
+    padding: 2rem;
+    font-size: 21px;
+    border-radius:7px;
+  }
+  
+  .header {
+    background-color: #4472c4;
+    padding: 1rem;
+  }
+  
+  .right-side {
+    width: 80%;
+    padding: 2rem;
+    border-left: 5px solid #000000;
+  }
+  
+  .data-section {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+  
+    width: 100%;
+  }
+  
+  /*----- table headings -----*/
+  th {
+    background-color: #4472c4;
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    font-size: 18px;
+  }
+  
+  /*----- table data (a cell) -----*/
+  td {
+    padding: 8px;
+    border-bottom: 1px solid black;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+  }
+  
+  .delete-button {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #4472c4;
+  }
+  
+  .input-div {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 1rem;
+    width: 100%;
+  }
+  .input-field{
+    padding: .8rem;
+    width: 10rem;
+    border: 1px solid #4472c4;
+    border-top-left-radius:7px;
+    border-bottom-left-radius:7px;}
+  .search-button{
+    background-color: #4472c4;
+    color: #fff;
+    padding: .8rem;
+    border-top-right-radius:7px;
+    border-bottom-right-radius:7px;
+    border: 1px solid #4472c4;
+  }
+  .input-field-table{
+    padding: .5rem;
+    width: 10rem;
+    border: 1px solid #4472c4;
+    border-radius:7px;
+  }
+  .city-name-div{
+    border: 1px solid #000000;
+    padding: 2rem;
+  }
+  .city-name{
+    margin-top: 1rem;
+  }
+  .city-name-header{
+    border: 1px solid #4472c4;
+    color: white;
+    padding: 2rem;
+    background-color: #4472c4;
+  }
